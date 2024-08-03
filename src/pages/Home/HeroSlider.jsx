@@ -200,16 +200,16 @@ function HeroSlider(props) {
     const item6Width = item6Ref.current.offsetWidth;
 
     if (event.deltaY > 0) {
-      setOffset1((prev) => Math.min(prev + 30, 5000)); // Move left
+      setOffset1((prev) => Math.min(prev + 60, 5000)); // Move left
       if (offset1 >= item1Width) { // Use >= to check if it reached the end
-        setOffset4((prev) => Math.min(prev + 30, 5000));
-        setOffset2((prev) => Math.min(prev + 30, 5000));
+        setOffset4((prev) => Math.min(prev + 60, 5000));
+        setOffset2((prev) => Math.min(prev + 60, 5000));
         if (offset2 >= item2Width) { // Use >= to check if it reached the end
-          setOffset5((prev) => Math.min(prev + 30, 5000));
+          setOffset5((prev) => Math.min(prev + 60, 5000));
           if (offset5 >= (item3Width - item6Width - 15)) { // Use >= to check if it reached the end
-            setOffset3((prev) => Math.min(prev + 30, 5000));
+            setOffset3((prev) => Math.min(prev + 60, 5000));
             if (offset3 >= item6Width) { // Use >= to check if it reached the end
-              setOffset6((prev) => Math.min(prev + 30, 5000));
+              setOffset6((prev) => Math.min(prev + 60, 5000));
             }
           }
         }
