@@ -1,0 +1,325 @@
+#page-neighbourhood {
+    background-color: #fff
+}
+
+#page-neighbourhood .map-filter {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    z-index: 10;
+    background-color: hsla(0, 0%, 100%, .9);
+    padding: 5px
+}
+
+@media screen and (max-width: 568px) {
+    #page-neighbourhood .map-filter {
+        top: 10px;
+        right: 10px
+    }
+}
+
+#page-neighbourhood .map-filter .map-filter-item {
+    background: #ccc;
+    border: none;
+    font-family: perfettoregularregular;
+    font-weight: 400;
+    color: #fff;
+    font-size: 13px;
+    padding: 5px 8px;
+    cursor: pointer;
+    outline: none;
+    transition: all .2s ease-in-out
+}
+
+#page-neighbourhood .map-filter .map-filter-item[data-type=all] {
+    background-color: #9D9588
+}
+
+#page-neighbourhood .map-filter .map-filter-item[data-type=all]:hover {
+    background-color: #725a40
+}
+
+#page-neighbourhood .map-filter .map-filter-item[data-type=all].active {
+    background-color: #343534
+}
+
+#page-neighbourhood .map-filter .map-filter-item[data-type=shop] {
+    background-color: #8b7359
+}
+
+#page-neighbourhood .map-filter .map-filter-item[data-type=shop]:hover {
+    background-color: #725a40
+}
+
+#page-neighbourhood .map-filter .map-filter-item[data-type=shop].active {
+    opacity: .5
+}
+
+#page-neighbourhood .map-filter .map-filter-item[data-type=culture] {
+    background-color: #8e8f90
+}
+
+#page-neighbourhood .map-filter .map-filter-item[data-type=culture]:hover {
+    background-color: #757677
+}
+
+#page-neighbourhood .map-filter .map-filter-item[data-type=culture].active {
+    opacity: .5
+}
+
+#page-neighbourhood .map-filter .map-filter-item[data-type=dining] {
+    background-color: #bbb4aa
+}
+
+#page-neighbourhood .map-filter .map-filter-item[data-type=dining]:hover {
+    background-color: #a29b91
+}
+
+#page-neighbourhood .map-filter .map-filter-item[data-type=dining].active {
+    opacity: .5
+}
+
+#page-neighbourhood #map-container {
+    position: relative;
+    min-height: 100%;
+    height: 100%
+}
+#page-neighbourhood #map-wrapper{
+    width: 100%;
+}
+
+#page-neighbourhood #map-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: move;
+    // width: 165%
+}
+
+@media screen and (max-width: 1024px) {
+    #page-neighbourhood #map-wrapper {
+        width: 140%
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #page-neighbourhood #map-wrapper {
+        width: 240%
+    }
+}
+
+@media screen and (max-width: 568px) {
+    #page-neighbourhood #map-wrapper {
+        width: 500%
+    }
+}
+
+#page-neighbourhood #map-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block
+}
+
+#page-neighbourhood #map-wrapper .places {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+#page-neighbourhood #map-wrapper .map-marker {
+    position: absolute;
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    opacity: 1;
+    cursor: pointer;
+    transition: all .3s ease-in-out
+}
+
+#page-neighbourhood #map-wrapper .map-marker.hide {
+    opacity: 0
+}
+
+#page-neighbourhood #map-wrapper .map-marker .tooltip {
+    background: #8b7359;
+    bottom: 100%;
+    font-size: 13px;
+    color: #fff;
+    font-family: perfettoregularregular;
+    font-weight: 400;
+    display: block;
+    left: 50%;
+    margin-bottom: 10px;
+    opacity: 0;
+    padding: 2px 8px;
+    position: absolute;
+    visibility: hidden;
+    width: auto;
+    white-space: nowrap;
+    -ms-transform: translate(-50%, -3px);
+    transform: translate(-50%, -3px);
+    transition: all .25s ease-out
+}
+
+#page-neighbourhood #map-wrapper .map-marker .tooltip:before {
+    bottom: -20px;
+    content: " ";
+    display: block;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    width: 100%
+}
+
+#page-neighbourhood #map-wrapper .map-marker .tooltip:after {
+    content: " ";
+    border-style: solid;
+    border-width: 9px 8px 0;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 100%;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%)
+}
+
+#page-neighbourhood #map-wrapper .map-marker:hover {
+    z-index: 999
+}
+
+#page-neighbourhood #map-wrapper .map-marker:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%)
+}
+
+#page-neighbourhood #map-wrapper .map-marker.map-marker-type-shop {
+    background-color: #8b7359
+}
+
+#page-neighbourhood #map-wrapper .map-marker.map-marker-type-shop .tooltip {
+    background: #8b7359
+}
+
+#page-neighbourhood #map-wrapper .map-marker.map-marker-type-shop .tooltip:after {
+    border-color: #8b7359 transparent transparent
+}
+
+#page-neighbourhood #map-wrapper .map-marker.map-marker-type-culture {
+    background-color: #8e8f90
+}
+
+#page-neighbourhood #map-wrapper .map-marker.map-marker-type-culture .tooltip {
+    background: #8e8f90
+}
+
+#page-neighbourhood #map-wrapper .map-marker.map-marker-type-culture .tooltip:after {
+    border-color: #8e8f90 transparent transparent
+}
+
+#page-neighbourhood #map-wrapper .map-marker.map-marker-type-dining {
+    background-color: #bbb4aa
+}
+
+#page-neighbourhood #map-wrapper .map-marker.map-marker-type-dining .tooltip {
+    background: #bbb4aa
+}
+
+#page-neighbourhood #map-wrapper .map-marker.map-marker-type-dining .tooltip:after {
+    border-color: #bbb4aa transparent transparent
+}
+
+// =========
+
+.map-marker-type-shop {
+
+    animation: pulse-shop 2s infinite;
+}
+
+
+.map-marker-type-dining {
+    animation: pulse-dining 2s infinite;
+
+}
+
+.map-marker-type-culture {
+    animation: pulse-dining 2s infinite;
+
+}
+
+
+@keyframes pulse-shop {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(139, 115, 89, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(139, 115, 89, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(139, 115, 89, 0);
+    }
+}
+
+@keyframes pulse-dining {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(187, 180, 170, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(187, 180, 170, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(187, 180, 170, 0);
+    }
+}
+
+
+@keyframes pulse-culture {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(142, 143, 144, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(142, 143, 144, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(142, 143, 144, 0);
+    }
+}
+
+
+button.map-filter-item.js-map-filter {
+    display: block;
+    background: #fefefe !important;
+    color: #000 !important;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000000 !important;
+    width: 200px;
+    text-align: left;
+    font-family: 'goth';
+}
+
+
+
+.imgneigh {
+    margin-right: 10px;
+}

@@ -1,0 +1,64 @@
+/* Card.css */
+.card1, .card2, .card3, .card4, .card5, .card6 {
+    background: #eee;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    font-family: Basis Grotesque Pro,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card1:hover {
+    transform: scale(1.02);
+}
+.card2:hover {
+    transform: scale(1.02);
+}
+.card3:hover {
+    transform: scale(1.02);
+}
+.card4:hover {
+    transform: scale(1.02);
+}
+.card5:hover {
+    transform: scale(1.02);
+}
+.card6:hover {
+    transform: scale(1.02);
+}
+
+.card1 {
+    height: 250px;
+    background-color: #A3C1DA;
+}
+.card2 {
+    height: 450px;
+    background-color: #F6B9B7;
+}
+.card3 {
+    height: 450px;
+    background-color: #B8E0B1;
+}
+.card4 {
+    height: 450px;
+    background-color: #E1B7E5;
+}
+.card5 {
+    height: 250px;
+    background-color: #F6EAB6;
+}
+.card6 {
+    height: 250px;
+    background-color: #F2C6B6;
+}
+
+.animation-div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}

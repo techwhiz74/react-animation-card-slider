@@ -1,0 +1,304 @@
+{
+    "heroText": "O Terraço Clássico Moderno",
+    "heroText1": "Residências Exclusivas para a Rua Exclusiva",
+    "heroText2": "Residências Novas e Exclusivas em Pymble",
+    "heroText3": "Vida e Jardins Espaçosos",
+    "heroText4": "Através de Elevadores Privados e Segurança 24/7",
+    "menu": {
+        "show": "Menu",
+        "close": "Fechar"
+    },
+    "history": "História",
+    "design": "Design",
+    "residences": "Residências",
+    "views": "Vistas",
+    "availability": "Disponibilidade",
+    "amenities": "Comodidades",
+    "neighborhood": "Vizinhança",
+    "team": "Equipe",
+    "legal": "Legal",
+    "contact": "Contato",
+    "press": "Imprensa",
+    "address": {
+        "text1": "Rua Telegraph",
+        "text2": "NSW, Austrália 10019",
+        "text3": "Galeria de Vendas",
+        "text4": "Apenas com agendamento prévio.",
+        "text5": "Consultas de Imprensa"
+    },
+    "form": {
+        "placeholder": {
+            "min_value": "Deve ter 3 caracteres ou mais",
+            "max_value": "Deve ter no máximo 20 caracteres",
+            "first_name": "NOME*",
+            "last_name": "SOBRENOME*",
+            "address": "ENDEREÇO",
+            "state": "ESTADO",
+            "city": "CIDADE",
+            "zip": "CEP",
+            "country": "Selecionar País",
+            "email": "E-MAIL*",
+            "number": "NÚMERO DE CONTATO*",
+            "hear_about": "COMO VOCÊ OUVIU FALAR DE NÓS?",
+            "required": "Obrigatório"
+        },
+        "name": {
+            "register": "REGISTRAR",
+            "required_fields": "*Campos Obrigatórios",
+            "broker": "Você é um corretor?",
+            "yes": "Sim",
+            "no": "Não",
+            "submit": "ENVIAR"
+        }
+    },
+    "history_desc": "A história do 111 West 57th Street é uma peça de música em dois grandes movimentos, reunindo o melhor da Era de Ouro do design arquitetônico pré-guerra da cidade de Nova York, com o melhor da inovação contemporânea em design, engenharia e construção de hoje.",
+    "history_menu": {
+        "menu_1": {
+            "title": "STEINWAY & SONS",
+            "desc": "A Steinway & Sons, uma empresa americana e alemã de pianos, é fundada na cidade de Nova York pelo imigrante alemão Henry E. Steinway em 1853. A empresa se estabelece como uma fabricante de pianos conhecida mundialmente e líder do setor."
+        },
+        "menu_2": {
+            "title_1": "OS ARQUITETOS ORIGINAIS:",
+            "title_2": "MESTRES DE MANHATTAN",
+            "desc": "A renomada firma Warren & Wetmore é fundada em 1887. A firma projeta muitos dos edifícios residenciais e culturais mais refinados de Manhattan, desde o 927 Fifth Avenue até a Grand Central Station, e continua a projetar o Steinway Hall em 1923."
+        },
+        "menu_3": {
+            "title": "STEINWAY HALL NA 57ª RUA",
+            "desc": "A construção do Steinway Hall começa em junho de 1924 e é concluída menos de um ano depois, em abril de 1925."
+        },
+        "menu_4": {
+            "title": "NOITE DE ABERTURA DO STEINWAY HALL",
+            "desc": "27 de outubro de 1925"
+        },
+        "menu_5": {
+            "title": "NOITE DE ABERTURA DO STEINWAY HALL",
+            "desc": "27 de outubro de 1925"
+        },
+        "menu_6": {
+            "title": "STATUS DE PATRIMÔNIO",
+            "desc": "O Steinway Hall na 57ª Rua é designado um marco histórico e cultural registrado em 2001."
+        },
+        "menu_7": {
+            "title_1": "STEINWAY HALL—",
+            "title_2": "O PRÓXIMO CAPÍTULO",
+            "desc": "A Steinway & Sons vende sua famosa sala de concertos e showroom para o JDS Development Group e Property Markets Group."
+        },
+        "menu_8": {
+            "title": "111 WEST 57TH STREET",
+            "desc": "A história da afinação fina no Steinway Hall continua hoje combinando o marco com uma nova torre luxuosa."
+        }
+    },
+    "more": "MAIS",
+    "title_centuries": "AO LONGO DOS SÉCULOS",
+    "today": "Hoje",
+    "history_item": {
+        "item_1": {
+            "subtitle": "STEINWAY & SONS",
+            "desc": "Steinway & Sons é fundada em 5 de março de 1853 pelo imigrante alemão Henry Engelhard Steinway em um loft em Manhattan na Varick Street. Na década de 1860, a Steinway constrói uma nova fábrica na Park Avenue e 53rd Street, no local atual do Seagram Building, onde ocupa um quarteirão inteiro. Com uma equipe de 350 homens, a produção aumenta de 500 para 1.800 pianos por ano. Os pianos da Steinway ganham vários prêmios importantes em exposições em Nova York, Paris e Londres, e ao longo dos próximos trinta anos, Henry e seus filhos, C. F. Theodore, Charles, Henry Jr., William e Albert, patenteiam 127 invenções e contribuem para o desenvolvimento do piano moderno."
+        },
+        "item_2": {
+            "subtitle": "OS ARQUITETOS ORIGINAIS: MESTRES DE MANHATTAN",
+            "desc": "A renomada firma Warren & Wetmore é fundada em 1887. A firma projeta muitos dos edifícios residenciais e culturais mais refinados de Manhattan, desde o 927 Fifth Avenue até a Grand Central Station, e continua a projetar o Steinway Hall em 1923. A abordagem artística da Warren & Wetmore culmina em proporções clássicas, pedras cuidadosamente esculpidas e uma linha de telhado pitoresca."
+        },
+        "item_3": {
+            "subtitle": "STEINWAY HALL NA 57ª RUA",
+            "desc": "Em 1916, a Steinway anuncia seus planos para construir um novo edifício de dez andares com a compra de propriedades adjacentes nas ruas West 57th e 58th, por quase um milhão de dólares. A Steinway & Sons seleciona a firma de arquitetura Warren & Wetmore, que entra com pedido de construção de um edifício de 16 andares em 1923. O projeto do Steinway Hall faz a primeira página do The New York Times, em outubro de 1923, em um artigo que saúda o edifício planejado como “uma importante adição ao novo centro das belas artes”. A construção começa em junho de 1924 e é concluída em abril de 1925."
+        },
+        "item_4": {
+            "subtitle": "NOITE DE ABERTURA DO STEINWAY HALL",
+            "desc": "A noite oficial de abertura ocorre em 27 de outubro de 1925 com uma performance de Willem Mengelberg e 35 músicos da Orquestra Filarmônica de Nova York perante 300 convidados da sociedade de Nova York. A performance inteira é transmitida pelo rádio. Como a casa principal do principal fabricante de pianos, Steinway & Sons, o Steinway Hall inclui salas acusticamente ideais para performances musicais por virtuoses como Sergei Rachmaninoff e Vladimir Horowitz, além de espaços para fabricação e afinação de instrumentos."
+        },
+        "item_5": {
+            "subtitle": "STATUS DE PATRIMÔNIO",
+            "desc": "Em 2001, o Steinway Hall é designado como um marco histórico, sendo “um monumento atemporal à música e arquitetura clássicas”. A Sala de Recepção e o Corredor do Steinway Hall e sua rotunda interior bem preservada são declarados marcos da cidade de Nova York em 2013."
+        },
+        "item_6": {
+            "subtitle": "STEINWAY HALL— O PRÓXIMO CAPÍTULO",
+            "desc": "Em 2013, o próximo grande capítulo na famosa história do Steinway Hall é escrito. O JDS Development Group e o Property Markets Group adquirem o edifício emblemático e o lote adjacente para construir um arranha-céu único, ousado e fino em terracota, bronze e vidro fundidos sob medida, projetado pelos arquitetos da SHoP com interiores de Studio Sofield."
+        },
+        "item_7": {
+            "subtitle": "111 WEST 57TH STREET",
+            "desc": "Em 2019, o Steinway Hall será concluído, seguido pela icônica nova torre em 2020. De uma base histórica a um marco contemporâneo, 111 alinha o antigo e o novo, arte e engenharia, natureza e cultura, e está situado perfeitamente simétrico ao belo Central Park. A torre eleva a história ao icônico horizonte de Manhattan e adapta os layouts clássicos pré-guerra do Steinway Hall em residências ricas em personagens."
+        },
+        "item_8": {
+            "subtitle": "RECITAIS FAMOSOS",
+            "desc": "O glorioso edifício de Beaux Arts vê os artistas de piano mais renomados de todos os tempos passarem por suas portas para se apresentar e selecionar instrumentos de performance do famoso banco de pianos no porão. Neste Steinway Hall, Vladimir Horowitz e Sergei Rachmaninoff se encontram e praticam juntos, e ao longo de suas nove décadas de serviço ao mundo do piano, o Steinway Hall recebe visitas regulares de artistas como Arthur Rubinstein, Van Cliburn, Judy Collins, Lang Lang, Billy Joel, Evgeny Kissin, Diana Krall e Harry Connick, Jr. Inúmeras apresentações acontecem tanto na glamorosa sala de concertos do andar de cima (destruída em 1958) quanto na reluzente sala de recepção abobadada."
+        }
+    },
+    "timeline": "Cronologia",
+    "design_info": {
+        "title": "DISEÑO",
+        "desc": "“Es prácticamente caligráfico, brillará en el horizonte, gracias a un exterior genuinamente opulento acabado en terracota y bronce.” – Justin Davidson, New York Magazine"
+    },
+    "design_slide": {
+        "slide_1": {
+            "title": "MAESTROS MODERNOS",
+            "desc": "111 West 57th Street estará compuesto por el edificio original protegido por el patrimonio Steinway Hall, diseñado en 1925 por Warren y Wetmore, y una nueva torre diseñada por los arquitectos de SHoP en el sitio adyacente, con diseño interior de Studio Sofield. El resultado: un nuevo hito en el horizonte de Manhattan."
+        },
+        "slide_2": {
+            "title_1": "ARQUITECTOS DE SHoP:",
+            "title_2": "ARQUITECTOS DE HOY",
+            "desc": "Los arquitectos de SHoP aprovechan su experiencia interdisciplinaria para crear arquitectura que hace que nuestras ciudades sean más vibrantes, hermosas y gratificantes para vivir. Desde sus estudios en el histórico edificio Woolworth de Nueva York, la firma aclamada por la crítica cuenta con un equipo de 180 personas talentosas y proyectos que abarcan cuatro continentes. En el corazón del trabajo de SHoP hay un respeto por el potencial expresivo de los materiales arquitectónicos tradicionales y una capacidad tecnológica pionera que los transforma en declaraciones inspiradoras. En 111 West 57th Street, el diseño de SHoP evoca las cualidades de forma y artesanía por las que siempre han sido celebrados los mejores rascacielos de Manhattan. 111 será a la vez único en el horizonte y imposible de imaginar levantándose en otro lugar."
+        },
+        "slide_3": {
+            "title_1": "Studio Sofield:",
+            "title_2": "Diseñador de Interiores de Hoy",
+            "desc": "SHoP Architects aprovecha su experiencia interdisciplinaria para crear arquitectura que hace que nuestras ciudades sean más vibrantes, hermosas y gratificantes para vivir. Desde sus estudios en el histórico edificio Woolworth de Nueva York, la firma aclamada por la crítica cuenta con un equipo de 180 personas talentosas y proyectos que abarcan cuatro continentes. En el corazón del trabajo de SHoP hay un respeto por el potencial expresivo de los materiales arquitectónicos tradicionales y una capacidad tecnológica pionera que los transforma en declaraciones inspiradoras. En 111 West 57th Street, el diseño de SHoP evoca las cualidades de forma y artesanía por las que siempre han sido celebrados los mejores rascacielos de Manhattan. 111 será a la vez único en el horizonte y imposible de imaginar levantándose en otro lugar."
+        }
+    },
+    "residences_info": {
+        "title": "RESIDENCIAS",
+        "desc": "Con elegantes galerías de entrada central con vistas al horizonte hacia el norte y el sur, y alturas de techo monumentales, cada residencia de torre de piso completo combina una gran escala con entornos cómodos y privados para la vida contemporánea."
+    },
+    "residences_slide": {
+        "slide_1": {
+            "title": "GRAN SALÓN",
+            "desc": "El Gran Salón característico, con alturas de techo de hasta 14 pies, es un espacio imponente perfecto para todas las ocasiones de entretenimiento. La pared de ventanales de piso a techo, que abarca toda la anchura del edificio de este a oeste, ofrece una vista perfectamente centrada del Central Park."
+        },
+        "slide_2": {
+            "title": "Dormitorio Principal",
+            "desc": "Los dormitorios principales cuentan con ventanales de piso a techo con montantes de bronce y vistas expansivas y perfectamente centradas del horizonte de Manhattan o del Central Park."
+        },
+        "slide_3": {
+            "title": "Cocinas",
+            "desc": "Cocinas personalizadas diseñadas por Studio Sofield."
+        },
+        "slide_4": {
+            "title": "Baño Principal",
+            "desc": "Los baños principales cuentan con paredes y pisos terminados en ónix blanco veteado, una bañera independiente antigua personalizada por William Holland y accesorios de bronce diseñados por Studio Sofield y fabricados por P.E. Guerin."
+        },
+        "slide_5": {
+            "title_1": "Segundo Baño Principal",
+            "title_2": "(en ciertas residencias seleccionadas)",
+            "desc": "Los segundos baños principales están detallados con duchas, tocadores y pisos de ónix gris con acero ennegrecido personalizado y apliques personalizados de P.E. Guerin diseñados por Studio Sofield."
+        }
+    },
+    "views_info": {
+        "title": "VISTAS",
+        "desc": "111 alinea lo antiguo y lo nuevo, el arte y la ingeniería, la naturaleza y la cultura, en una simetría perfecta: una nueva línea en el horizonte, a lo largo del centro del parque en el centro de la isla en el centro del mundo. Justin Davidson, New York Magazine"
+    },
+    "views_slide": {
+        "slide_1": {
+            "title": "Vistas",
+            "desc": "111 alinea lo antiguo y lo nuevo, el arte y la ingeniería, la naturaleza y la cultura, en una simetría perfecta: una nueva línea en el horizonte, a lo largo del centro del parque en el centro de la isla en el centro del mundo."
+        }
+    },
+    "availability_title": "Residencias de la Torre",
+    "floor_plan": "Plano del Piso",
+    "gallery": "Galería",
+    "availability_table_head": {
+        "name_1": "RESIDENCIA",
+        "name_2": "DORMITORIO",
+        "name_3": "BAÑO",
+        "name_4": "INTERIOR",
+        "name_5": "EXTERIOR",
+        "name_6": "EXPOSICIÓN",
+        "name_7": "PRECIO",
+        "name_8": "VER / DESCARGAR"
+    },
+    "amenities_info": {
+        "title": "SERVICIOS Y COMODIDADES",
+        "desc": "Diseñados por Studio Sofield, los servicios y comodidades en 111 West 57th Street ofrecerán lo máximo en confort, conveniencia y seguridad."
+    },
+    "amenities_slide": {
+        "slide_1": {
+            "title": "Porte Cochère Privado",
+            "desc": "111 West 57th Street establece un estilo de vida de lujo, con una entrada grácil y segura que presenta un raro porte cochère privado y resguardado con candelabros de urna personalizados, adoquines de granito gris rústico e intricadas puertas de trabajo enrejado inspiradas en el filigrana de bronce en el exterior del edificio."
+        },
+        "slide_2": {
+            "title": "Llegada",
+            "desc": "111 West 57th Street establece un estilo de vida de lujo, con una entrada grácil y segura que presenta un raro porte cochère privado y resguardado con candelabros de urna personalizados, adoquines de granito gris rústico e intricadas puertas de trabajo enrejado inspiradas en el filigrana de bronce en el exterior del edificio."
+        },
+        "slide_3": {
+            "title": "La Piscina",
+            "desc": "Una hermosa y serena piscina de 82 pies de largo cuenta con techos abovedados de doble altura, cabañas en los nichos y asientos de salón en todo el perímetro, y suntuosas lámparas de pared ornamentadas a medida."
+        },
+        "slide_4": {
+            "title": "SALONES Y ENTRETENIMIENTO",
+            "desc": "El amplio conjunto de salones presenta espacios grandes y formales para el entretenimiento, el reposo y el bienestar. El diseño galardonado de Studio Sofield fomenta el descubrimiento a través de cada habitación."
+        },
+        "slide_5": {
+            "title": "Terraza",
+            "desc": "La amplia terraza al aire libre y el salón ofrecen a los residentes un espacio privado para relajarse, cenar al aire libre o entretener a los invitados."
+        }
+    },
+    "neighborhood_info": {
+        "title": "BARRIO DE MIDTOWN",
+        "desc": "111 West 57th Street es el ancla de un vecindario de destacados puntos de referencia culturales; Carnegie Hall y Lincoln Center al oeste; el Museo de Arte Moderno a pocas cuadras al sur; y el corazón verde vivo de la ciudad de Nueva York, Central Park, a solo unos pasos al norte."
+    },
+    "neighborhood_text": {
+        "shopping": "Compras y Minoristas",
+        "medical": "Servicios Médicos y Hospitalarios",
+        "golf": "Golf y Parques",
+        "saint": "Village de Compras de Saint Ives",
+        "pymble": "Estación de Tren de Pymble",
+        "gordon": "Centro de Gordon",
+        "mack": "Mackquarie Central",
+        "mack_hos": "Hospital Universitario de Mackquarie",
+        "syd": "Hospital Adventista de Sídney",
+        "avondale": "Club de Golf Avondale",
+        "lane": "Parque Nacional de Lane Cove",
+        "py_club": "Club de Golf Pymble",
+        "robert": "Parque Robert Pymble",
+        "rickmond": " Parque Richmond",
+        "gor_club": "Club de Golf de Gordon",
+        "kill_club": "Club de Golf de Killara"
+    },
+    "team_info": {
+        "title": "EQUIPO",
+        "desc": "“Vas a sentir el espíritu de creación y construcción. Vas a percibir que hay manos humanas muy involucradas en cómo este edificio comienza a manifestarse.”",
+        "name": "—Chris Sharples, SHoP Architects"
+    },
+    "team_content": {
+        "content_1": {
+            "role": "Desarrollador",
+            "title": "JDS Development Group",
+            "desc": "JDS Development Group es una firma de desarrollo inmobiliario, construcción y adquisición que eleva el estándar de proyectos residenciales, de hospitalidad y mixtos en la ciudad de Nueva York y Miami. JDS tiene más de nueve millones de pies cuadrados de propiedad en diversas etapas de desarrollo, incluyendo los récords establecidos con Walker Tower y Stella Tower, los Edificios de Cobre Americano, 111 West 57th Street y The Fitzroy. El objetivo de JDS es redefinir lo que significa ser un desarrollador inmobiliario en el siglo veintiuno. La firma se dedica a empujar los límites del diseño y alinear incentivos para dejar el paisaje urbano mejor servido por sus edificios."
+        },
+        "content_2": {
+            "role": "Desarrollador",
+            "title": "Property Markets Group",
+            "desc_1": "Property Markets Group (PMG) fue fundada por Kevin Maloney en 1991 y es una firma premier de inversión inmobiliaria, desarrollo y construcción general. La empresa tiene su sede en Nueva York con oficinas en Miami y Chicago. PMG es una de las pocas empresas de desarrollo de gran escala con capacidad para maniobrar todas las facetas del proceso de desarrollo. Con experiencia práctica directa en la adquisición, renovación, financiamiento, operación y comercialización de bienes raíces comerciales y residenciales, PMG ha completado 85 edificios residenciales en Nueva York, Florida y Chicago, y más de 150 proyectos inmobiliarios en todo Estados Unidos.",
+            "desc_2": "Durante sus 27 años de historia, PMG ha desarrollado proyectos en todos los tipos de activos y se ha distinguido por enfocarse en propiedades residenciales de lujo premier. Mejorando consistentemente la experiencia de lujo, PMG es notable por proyectos meticulosamente diseñados como Walker Tower, Stella Tower, The Belnord, The Briarcliffe, The Kingsley, Mei Miami Beach y más recientemente, Echo Aventura y Echo Brickell en el corazón del distrito financiero de Miami. Actualmente, PMG se encuentra en varias etapas de desarrollo de más de 5 millones de pies cuadrados de propiedad residencial, incluyendo 10 Sullivan, Queens Plaza South, Muse Residences, 111 Leroy Street, 548 West 22nd St y numerosos otros proyectos en toda la ciudad de Nueva York, Miami y Chicago."
+        },
+        "content_3": {
+            "role": "Desarrollador",
+            "title": "Spruce Capital Partners",
+            "desc": "Spruce Capital Partners, fundada en 2007 por Joshua Crane y Robert Schwartz, es una empresa inmobiliaria con sede en la ciudad de Nueva York, desarrolladora e inversionista. La firma y sus socios han adquirido y desarrollado una cartera de activos por un valor superior a los $3 mil millones. Además, los socios de Spruce dirigen S3 Capital, uno de los prestamistas puente más activos en la ciudad de Nueva York. S3 ha cerrado más de 250 préstamos desde 2014 por un total de más de $1 mil millones. La firma emplea a un equipo de profesionales experimentados en la industria de la construcción, finanzas, suscripción, adquisiciones, originación y gestión de activos."
+        },
+        "content_4": {
+            "role": "ARQUITECTOS",
+            "title": "SHoP",
+            "desc": "SHoP aprovecha el poder de la experiencia interdisciplinaria para crear arquitectura que hace que nuestras ciudades sean más vibrantes, más hermosas y más gratificantes para todos vivir. Operando desde sus estudios en el histórico edificio Woolworth de Nueva York, la firma aclamada por la crítica tiene un equipo de 180 personas talentosas y proyectos completados o en marcha en cuatro continentes. En el corazón del trabajo de SHoP hay un respeto por el potencial expresivo de los materiales arquitectónicos tradicionales y una capacidad tecnológica pionera que los transforma en declaraciones inspiradoras para el mundo de hoy."
+        },
+        "content_5": {
+            "role": "DISEÑO INTERIOR",
+            "title": "Studio Sofield",
+            "desc": "Studio Sofield, liderado por el Principal William Sofield, es una firma de diseño con reputación por un enfoque reflexivo y multidisciplinario del diseño caracterizado por trabajar en respuesta no solo al lugar del proyecto sino también a las necesidades únicas del cliente. Todos los proyectos de Sofield infunden un lujo contenido en el diseño a través de elecciones en materiales y artesanía, así como a través de un proceso de descubrimiento donde los clientes descifran su propio concepto de lujo. Con 111 West 57th Street, William Sofield ha incorporado esta filosofía con su formación historicista para desarrollar una respuesta considerada y contemporánea al cambiante horizonte de la ciudad de Nueva York."
+        },
+        "content_6": {
+            "role": "AGENTE EXCLUSIVO DE MARKETING Y VENTAS",
+            "title": "Douglas Elliman Development Marketing",
+            "desc": ""
+        },
+        "content_7": {
+            "role": "BRANDING",
+            "title": "Pandiscio Green",
+            "desc": ""
+        },
+        "content_8": {
+            "role": "REPRESENTACIONES GRÁFICAS",
+            "title": "Hayes Davidson",
+            "desc": ""
+        }
+    },
+    "legal_desc": "Las representaciones artísticas y las imágenes generadas por computadora, así como las decoraciones interiores, acabados, accesorios y muebles, se proporcionan únicamente con fines ilustrativos. El patrocinador no ofrece ninguna representación o garantía salvo lo que pueda establecerse en el Plan de Oferta. Todas las dimensiones son aproximadas y están sujetas a las variaciones y tolerancias normales de la construcción. Las alturas de los techos son aproximadas y variables. Los pies cuadrados exceden el área útil del piso. Las representaciones artísticas e informáticas reflejan la escala y el espíritu planificados del edificio. El patrocinador no ofrece ninguna representación con respecto a la construcción futura en el vecindario que rodea el edificio o que dicha construcción no obstruirá las vistas desde ninguna ventana y/o terraza dentro del edificio. El patrocinador se reserva el derecho de hacer sustituciones de materiales, equipos, accesorios, acabados y electrodomésticos de acuerdo con los términos del Plan de Oferta. Los términos de oferta completos se encuentran en un plan de oferta disponible a través del patrocinador. Número de archivo CD15-0146. 111 West 57th Property Owner LLC, 104 5th Avenue, 9th Floor, Nueva York, Nueva York 10011. Oportunidad de vivienda igualitaria.",
+    "press_content": {
+        "content_1": {
+            "title": "THE WALL STREET JOURNAL",
+            "subtitle": "Un Penthouse de Nueva York a 1.000 pies sobre el nivel de la calle se vende por más de $50 millones",
+            "desc": "El contrato para un apartamento en 111 West 57th Street es uno de los más grandes firmados en Nueva York desde el inicio de la pandemia."
+        }
+    },
+    "read_more": "Leer Más"
+}
