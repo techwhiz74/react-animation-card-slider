@@ -22,6 +22,8 @@ body {
 .container_wrapper {
     width: calc(100% - 540px);
     margin: 0 auto;
+    overflow: hidden;
+    padding: 10px;
 }
 
 .item1 { grid-area: card1; }
@@ -33,7 +35,7 @@ body {
 
 .grid-container {
     display: grid;
-      grid-template-areas:
+    grid-template-areas:
       'card1 card1 card1 card1 card2 card2 card3 card3 card3 card3'
       'card4 card4 card4 card4 card2 card2 card3 card3 card3 card3'
       'card4 card4 card4 card4 card5 card5 card5 card6 card6 card6';
@@ -210,6 +212,8 @@ body {
     .container_wrapper {
         // width: calc(100% - 160px);
         max-width: 1180px;
+        overflow: hidden;
+        padding: 10px;
     }
 
     #header {
@@ -221,6 +225,8 @@ body {
     .container_wrapper {
         // width: calc(100% - 120px);
         max-width: 1180px;
+        overflow: hidden;
+        padding: 10px;
     }
 
     #header {
@@ -231,6 +237,8 @@ body {
 @media screen and (max-width: 1180px) {
     .container_wrapper {
         width: calc(100% - 120px);
+        overflow: hidden;
+        padding: 10px;
     }
 
     #header {
@@ -241,6 +249,8 @@ body {
 @media screen and (max-width: 1024px) {
     .container_wrapper {
         width: calc(100% - 80px);
+        overflow: hidden;
+        padding: 10px;
     }
 
     #header {
@@ -251,6 +261,8 @@ body {
 @media screen and (max-width: 768px) {
     .container_wrapper {
         width: calc(100% - 0px);
+        overflow: hidden;
+        padding: 10px;
     }
 
     #header {

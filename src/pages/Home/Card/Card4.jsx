@@ -4,7 +4,7 @@ import './Card.css'; // Create a CSS file for styling
 import Lottie from 'react-lottie';
 import animationData from '../../../assets/lottie-animation/delivery-boy.json';
 
-const Card4 = () => {
+const Card4 = ({height}) => {
     const defaultOptions = {
         loop: true, // Set to true if you want the animation to loop
         autoplay: true, // Set to true to start the animation automatically
@@ -15,7 +15,7 @@ const Card4 = () => {
     };
 
     return (
-        <div className="card4">
+        <div className="card4" style={{height: `${height}px`}}>
             <div>This is card4</div>
                 <Lottie options={defaultOptions} className="animation-icon" width={250} height={250} />
         </div>

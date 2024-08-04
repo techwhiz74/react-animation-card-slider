@@ -33,27 +33,21 @@
 }
 
 .card1 {
-    height: 250px;
     background-color: #A3C1DA;
 }
 .card2 {
-    height: 450px;
     background-color: #F6B9B7;
 }
 .card3 {
-    height: 450px;
     background-color: #B8E0B1;
 }
 .card4 {
-    height: 450px;
     background-color: #E1B7E5;
 }
 .card5 {
-    height: 250px;
     background-color: #F6EAB6;
 }
 .card6 {
-    height: 250px;
     background-color: #F2C6B6;
 }
 
@@ -61,4 +55,9 @@
     height: 100%;
     display: flex;
     align-items: center;
+}
+
+.scroll-slider {
+    display: flex;
+    gap: 15px;
 }
