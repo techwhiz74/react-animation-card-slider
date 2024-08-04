@@ -2,7 +2,7 @@
 import React from 'react';
 import './Card.css'; // Create a CSS file for styling
 import Lottie from 'react-lottie';
-import animationData from '../../../assets/lottie-animation/stats.json';
+import animationData from '../../../assets/lottie-animation/gift-on-the-way.json';
 
 const Card5 = ({height}) => {
     const defaultOptions = {
@@ -18,6 +18,7 @@ const Card5 = ({height}) => {
         <div className="card5" style={{height: `${height}px`}}>
             <div>This is card5</div>
             <Lottie options={defaultOptions} className="animation-icon" width={250} height={250} />
+            <p>Live hassle-free with our all-inclusive rental packages.</p>
         </div>
     );
 };

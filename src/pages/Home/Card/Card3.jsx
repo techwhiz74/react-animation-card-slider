@@ -18,6 +18,7 @@ const Card3 = ({height}) => {
         <div className="card3" style={{height: `${height}px`}}>
             <div>This is card3</div>
             <Lottie options={defaultOptions} className="animation-icon" width={250} height={250} />
+            <p>Enjoy modern amenities and a vibrant community just steps away!</p>
         </div>
     );
 };

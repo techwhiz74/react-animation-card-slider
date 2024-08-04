@@ -8,17 +8,17 @@ function HeroSlider(props) {
   const { t } = useTranslation();
   const [lightboxShow, setLightboxShow] = useState(false);
   const [lightboxSrc, setLightboxSrc] = useState("");
-  const [offset, setOffset] = useState(0); // Lifted offset state
+  const [offset, setOffset] = useState(0);
   const [showScrollSlider, setShowScrollSlider] = useState(false);
 
   const handleScroll = (event) => {
     if (event.deltaY > 0) {
-      setOffset((prev) => Math.min(prev + 60, 4500));
       setShowScrollSlider(true);
+      setOffset((prev) => Math.min(prev + 100, 2000));
     } else {
       setOffset((prev) => Math.max(prev - 100, 0));
       if (offset === 0) {
-        setShowScrollSlider(false); // Hide ScrollSlider when offset is 0
+        setShowScrollSlider(false);
       }
     }
   };
@@ -32,11 +32,13 @@ function HeroSlider(props) {
 
   return (
     <div className="container_wrapper">
-      {showScrollSlider && offset > 0 ? (
-        <ScrollSlider offset={offset} setOffset={setOffset} />
-      ) : (
-        <GridSlider />
-      )}
+      <div>
+        {showScrollSlider && offset >= 0 ? (
+          <ScrollSlider />
+        ) : (
+          <GridSlider />
+        )}
+      </div>
 
       <LightboxScreen
         isShow={lightboxShow}
