@@ -13,10 +13,10 @@ const ScrollSlider = () => {
 
     const handleScroll = (event) => {
         if (event.deltaY > 0) {
-            setOffset((prev) => Math.min(prev + 100, 1575));
+            setOffset((prev) => Math.min(prev + 51, 510));
         } else {
             if (offset === 0) {
-                setOffset((prev) => Math.max(prev - 100, 0));
+                setOffset((prev) => Math.max(prev - 51, 0));
             }
         }
     };
