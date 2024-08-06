@@ -7,16 +7,20 @@ import Card5 from "./Card/Card5";
 import Card6 from "./Card/Card6";
 import './Card/Card.css';
 
-const ScrollSlider = () => {
+const ScrollSlider = ({width}) => {
+
     const [offset, setOffset] = useState(0);
     const [opacity, setOpacity] = useState(0); // State for opacity
+    const cardWidth = 300;
+    const maxOffset = (cardWidth + 15) * 6 - width; //15px : gap
+
 
     const handleScroll = (event) => {
         if (event.deltaY > 0) {
-            setOffset((prev) => Math.min(prev + 51, 510));
+            setOffset((prev) => Math.min(prev + maxOffset/10, maxOffset));
         } else {
             if (offset === 0) {
-                setOffset((prev) => Math.max(prev - 51, 0));
+                setOffset((prev) => Math.max(prev - maxOffset/10, 0));
             }
         }
     };

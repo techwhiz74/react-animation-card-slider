@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import LightboxScreen from "../../components/LightboxScreen";
 import { useTranslation } from "react-i18next";
 import ScrollSlider from './ScrollSlider';
@@ -10,6 +10,8 @@ function HeroSlider(props) {
   const [lightboxSrc, setLightboxSrc] = useState("");
   const [offset, setOffset] = useState(0);
   const [showScrollSlider, setShowScrollSlider] = useState(false);
+  const [containerWidth, setContainerWidth] = useState(0); // Step 1: Create state for width
+  const containerRef = useRef(null); // Step 2: Create a ref
 
   const handleScroll = (event) => {
     if (event.deltaY > 0) {
@@ -30,13 +32,22 @@ function HeroSlider(props) {
     };
   }, [offset]);
 
+  useEffect(() => {
+    // Step 3: Access the width of the container
+    if (containerRef.current) {
+      const width = containerRef.current.offsetWidth;
+      setContainerWidth(width); // Update the state with the width
+      console.log("Container width:", width);
+    }
+  }, [containerRef]); // You can add dependencies as needed
+
   return (
-    <div className="container_wrapper">
+    <div className="container_wrapper" ref={containerRef}>
       <div>
         {showScrollSlider && offset >= 0 ? (
-          <ScrollSlider />
+          <ScrollSlider width={containerWidth} />
         ) : (
-          <GridSlider />
+          <GridSlider width={containerWidth} />
         )}
       </div>
 
